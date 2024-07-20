@@ -37,11 +37,11 @@ def on_message(client, userdata, message):
 #TLS Websocket Port: 8884
 
 # Configurações do broker MQTT
-broker_address = "broker.hivemq.com"  # Coloque o endereço do seu broker MQTT aqui
+broker_address = "test.mosquitto.org"  # Coloque o endereço do seu broker MQTT aqui
 port = 1883  # Porta padrão para comunicação MQTT
 user = ""  # Usuário do broker (se necessário)
 password = ""  # Senha do broker (se necessário)
-topic = "teste/topico"
+topic = "/LABUSIG/LAB/test"
 
 
 client = mqtt.Client() #create new instance
